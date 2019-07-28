@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+Log In
+
+<form action="/login" method="post">
+    <input type="text" name="username"><br>
+    <input type="text" name="password"><br>
+    <input type="submit" value="Login">
+
+
+</form>
+
+<p>Register</p>
+
+<form action="/register" method="post">
+
+    <input name="name" type="text" placeholder="name"> <br>
+    <input name="surname" type="text" placeholder="surname"> <br>
+    <input name="email" type="text" placeholder="email"> <br>
+    <input name="password" type="password" placeholder="password"> <br>
+    userType: <select name="userType">
+    <option value="ADMIN">ADMIN</option>
+    <option value="USER">USER</option>
+</select><br>
+    <input type="submit" value="Register"> <br>
+
+
+</form>
+
+
+</body>
+</html>
